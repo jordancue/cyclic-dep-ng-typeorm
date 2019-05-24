@@ -1,0 +1,21 @@
+{
+  "npmScope": "cyclicdep",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "cyclic-dep": {
+      "tags": []
+    },
+    "cyclic-dep-e2e": {
+      "tags": []
+    },
+    "schema": {
+      "tags": []
+    }
+  }
+}
